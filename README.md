@@ -1,2 +1,1 @@
-# ai-job-agent-extension
-An AI-powered browser extension to auto-apply for job listings by reviewing your resume, matching it with job posts, and submitting applications 
+An AI-powered browser extension with Python backend to auto-apply for job listings by reviewing your resume, matching it with job posts, and submitting applications — built with Agno, Conda, and Chrome Extension.
