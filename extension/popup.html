@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Job Agent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Job Agent</h1>
+    <div id="jobInfo">
+      <p>Current Job URL: <span id="jobUrl"></span></p>
+    </div>
+    
+    <div class="section">
+      <h2>1. Upload Resume</h2>
+      <input type="file" id="resumeUpload" accept=".pdf">
+    </div>
+    
+    <div class="section">
+      <h2>2. Analyze Match</h2>
+      <button id="analyzeBtn">Analyze Job Match</button>
+      <div id="analysisResult" class="hidden">
+        <h3>Analysis Result</h3>
+        <div id="matchScore"></div>
+        <div id="strengths"></div>
+        <div id="weaknesses"></div>
+        <div id="improvements"></div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>3. Apply for Job</h2>
+      <div id="contactForm" class="hidden">
+        <input type="text" id="fullName" placeholder="Full Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="tel" id="phone" placeholder="Phone Number">
+        <button id="applyBtn">Apply with AI</button>
+      </div>
+    </div>
+    
+    <div id="statusMessage"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda environment and virtual envs
+env/
+.venv/
+venv/
+env.bak/
+
+# Python cache
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# FastAPI/uvicorn logs
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Chrome extension artifacts
+extension/icon.png
+
+# OS metadata files
+*.swp
+*.bak
+
+# Compiled source
+*.out
+*.o
+*.a
+*.so
+
+# PDF or test data (optional)
+data/*.pdf
+
+# Environment files (optional if you don't want to upload this)
+.env
+.env.*
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Node modules (in case you add Node packages to extension)
+node_modules/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+.eggs/
